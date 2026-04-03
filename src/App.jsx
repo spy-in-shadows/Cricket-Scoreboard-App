@@ -79,7 +79,7 @@ export default function App() {
     setScore(0);
     setWickets(0);
     setBallsBowled(0);
-    setMessage("1st innings started");
+    setMessage("2nd innings started");
   };
 
   return (
