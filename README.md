@@ -1,16 +1,123 @@
-# React + Vite
+# 🏏 Cricket Scoreboard App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **first proper React project**, built using React and Vite.
+The app simulates a simple cricket scoreboard where users can update runs, wickets, overs, and track match progress interactively.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📊 Live score tracking (runs, wickets, overs)
+* 🎯 Dynamic target input (user can set target before match)
+* ⚡ Real-time updates using React `useState`
+* 🏏 Ball-by-ball simulation
+* ➕ Run buttons (0, 1, 2, 3, 4, 6)
+* ❌ Wicket handling
+* ⚠️ Extras (No Ball, Wide Ball)
+* 🔁 Reset match functionality
+* 📱 Responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Concepts I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React functional components
+* `useState` for state management
+* Component-based architecture
+* Props and reusability
+* Event handling in React
+* Conditional rendering
+* Basic UI design with CSS
+
+---
+
+## 🏗️ Project Structure
+
+```
+src/
+  components/
+    Header.jsx
+    InfoBox.jsx
+    ScoreButton.jsx
+    ActionButton.jsx
+    StatusMessage.jsx
+  App.jsx
+  App.css
+  main.jsx
+  index.css
+```
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/cricket-scoreboard-app.git
+```
+
+2. Go into the project folder
+
+```
+cd cricket-scoreboard-app
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start the development server
+
+```
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🎮 How to Use
+
+1. Enter a **target score**
+2. Click **Start Match**
+3. Use buttons to:
+
+   * Add runs
+   * Add wicket
+   * Add extras (no ball / wide)
+4. Watch the scoreboard update in real time
+5. Reset anytime using **Reset Match**
+
+---
+
+## 📌 Future Improvements
+
+* Add 2nd innings
+* Add team names
+* Show run rate (RR)
+* Add undo/last ball feature
+* Store match history
+
+---
+
+## 🙌 Acknowledgement
+
+This project was built as part of my learning journey in React.
+Still exploring and improving 🚀
+
+---
+
+## 📬 Connect with me
+
+If you have suggestions or feedback, feel free to reach out!
+
+---
+
+⭐ If you like this project, consider giving it a star!
